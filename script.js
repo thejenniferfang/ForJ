@@ -32,7 +32,7 @@ noBtn.addEventListener('mouseover', () => {
 yesBtn.addEventListener('click', () => {
     clickCount++;
     if (clickCount === 1) {
-        yesBtn.textContent = 'Are you sure?';
+        yesBtn.textContent = 'are you sure?';
     } else {
         invitation.style.display = 'block';
         noBtn.style.display = 'none';
